@@ -115,19 +115,19 @@ const educationInfo = {
       logo: require("./assets/images/dtulogo.png"),
       subHeader: "B.Tech  in Computer Science",
       duration: "August 2021 - May 2025",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      // desc: "Participated in the research of XXX and published 3 papers.",
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      // ]
     },
     {
       schoolName: "Dav Public School ",
       logo: require("./assets/images/davlogo.jpeg"),
       subHeader: "High Class",
       duration: "April 2018 - April 2020",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      // desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
@@ -139,18 +139,18 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "75%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "80%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 // Work experience section
@@ -163,10 +163,10 @@ const workExperiences = {
       company: "Expedia",
       companylogo: require("./assets/images/expedialogo.jpeg"),
       date: "June 2024 – July 2024",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      "Conducted in depth market analysis to identify lucrative digital advertising opportunities, resulting in a 15% increase in customer acquisition.",
+      "Developed strategic investment recommendations in digital advertising, identifying high-ROI channels and reducing cost-per-lead by 20%, boosting overall campaign efficiency and increasing annual revenue by $500K.",
+      "Create engaging presentation decks and video recordings, showcasing actionable insights to drive informed decision-making."
       ]
     },
     {
@@ -174,7 +174,7 @@ const workExperiences = {
       company: "WorinWell",
       companylogo: require("./assets/images/worinwelllogo.png"),
       date: "April 2024 – June 2024",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Build a Web Application on TaskManager Application and Hotel Booking System. Architectedcomprehensivebookingsystembydevelopingbothfront-endinterfacesandback-endfunctionalities enabled seamless room reservations, increasing user engagement."
     },
     {
       role: "Digital Marketing Intern",
