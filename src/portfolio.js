@@ -175,7 +175,7 @@ const workExperiences = {
       companylogo: require("./assets/images/worinwelllogo.png"),
       date: "April 2024 – June 2024",
       descBullets: ["Build a Web Application on TaskManager Application and Hotel Booking System. ",
-      "Architectedcomprehensivebookingsystembydevelopingbothfront-endinterfacesandback-endfunctionalities enabled seamless room reservations, increasing user engagement."
+      "Architected comprehensive booking system by developing both front-end interfaces and back-end functionalities enabled seamless room reservations, increasing user engagement."
       ]
     },
     {
@@ -183,8 +183,10 @@ const workExperiences = {
       company: "IIDE",
       companylogo: require("./assets/images/iidelogo.png"),
       date: "April 2024 – May 2024",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
+      descBullets: ["Conducted market research, created engaging content, and managed ad campaigns. Increased community engagement by 30%.",
+        "Developed visually appealing pins, managed boards, and optimized content for SEO. Achieved a 25% increase in repins.",
+        "Curated content, managed posts and stories, and engaged with followers. Boosted follower count by 20% and improved post reach."
+        ]    }
   ]
 };
 
