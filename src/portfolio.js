@@ -174,7 +174,9 @@ const workExperiences = {
       company: "WorinWell",
       companylogo: require("./assets/images/worinwelllogo.png"),
       date: "April 2024 – June 2024",
-      desc: "Build a Web Application on TaskManager Application and Hotel Booking System. Architectedcomprehensivebookingsystembydevelopingbothfront-endinterfacesandback-endfunctionalities enabled seamless room reservations, increasing user engagement."
+      descBullets: ["Build a Web Application on TaskManager Application and Hotel Booking System. ",
+      "Architectedcomprehensivebookingsystembydevelopingbothfront-endinterfacesandback-endfunctionalities enabled seamless room reservations, increasing user engagement."
+      ]
     },
     {
       role: "Digital Marketing Intern",
